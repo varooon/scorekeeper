@@ -28,6 +28,7 @@ $("#custom-set-score").on("submit", function(event){
     displayScore();
   } else{
     current_score = 0;
+    displayScore();
   }
 });
 
